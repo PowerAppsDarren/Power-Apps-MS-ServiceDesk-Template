@@ -18,3 +18,9 @@ Screens:
             DisplayMode: =DisplayMode.Edit
             X: =40
             Y: =40
+      - ButtonCanvas1_1:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            X: =242
+            Y: =40

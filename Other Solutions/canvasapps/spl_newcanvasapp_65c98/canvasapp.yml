@@ -1,10 +1,10 @@
 CanvasApp:
   Name: spl_newcanvasapp_65c98
-  AppVersion: 2024-11-23T16:16:35.0000000Z
+  AppVersion: 2024-11-23T16:48:55.0000000Z
   Status: Ready
   CreatedByClientVersion: 3.24112.10.0
   MinClientVersion: 3.24112.10.0
-  Tags: '{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24112.10","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}'
+  Tags: '{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24112.10","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20241123T161635Z-3.24112.10.0"}'
   IsCdsUpgraded: 0
   GalleryItemId:
     '@xsi:nil': true

@@ -107,19 +107,23 @@
   "DocumentLayoutMaintainAspectRatio": true,
   "DocumentLayoutLockOrientation": false,
   "ShowStatusBar": false,
-  "AppCopilotSchemaName": null,
+  "AppCopilotSchemaName": "",
   "OriginatingVersion": "1.343",
   "DocumentAppType": "DesktopOrTablet",
   "DocumentType": "App",
   "AppCreationSource": "AppFromScratch",
   "AppDescription": "",
-  "ManualOfflineProfileId": null,
+  "ManualOfflineProfileId": "",
   "DefaultConnectedDataSourceMaxGetRowsCount": 500,
   "ContainsThirdPartyPcfControls": false,
   "ParserErrorCount": 0,
   "BindingErrorCount": 0,
   "InstrumentationKey": "",
   "EnableInstrumentation": false,
-  "ControlCount": {},
-  "AnalysisLoadTime": 0.0800287
+  "ControlCount": {
+    "screen": 1,
+    "PowerApps_CoreControls_ButtonCanvas": 2
+  },
+  "DeserializationLoadTime": 0.7511847,
+  "AnalysisLoadTime": 0.0796002
 }

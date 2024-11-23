@@ -24,3 +24,10 @@ Screens:
             DisplayMode: =DisplayMode.Edit
             X: =242
             Y: =40
+      - ButtonCanvas1_2:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Disabled
+            X: =242
+            Y: =40
+            Width: =500

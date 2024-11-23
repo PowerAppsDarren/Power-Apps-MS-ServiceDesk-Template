@@ -1,0 +1,165 @@
+{
+  "DataSources": [
+    {
+      "Name": "CustomGallerySample",
+      "Schema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "Data": "[{\"SampleHeading\":\"Lorem ipsum 1\",\"SampleImage\":\"/ctrllib/gallery/data/imageGallery/SampleImage4.svg\",\"SampleText\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"},{\"SampleHeading\":\"Lorem ipsum 2\",\"SampleImage\":\"/ctrllib/gallery/data/imageGallery/SampleImage3.svg\",\"SampleText\":\"Suspendisse enim metus, tincidunt quis lobortis a, fringilla dignissim neque.\"},{\"SampleHeading\":\"Lorem ipsum 3\",\"SampleImage\":\"/ctrllib/gallery/data/imageGallery/SampleImage2.svg\",\"SampleText\":\"Ut pharetra a dolor ac vehicula.\"},{\"SampleHeading\":\"Lorem ipsum 4\",\"SampleImage\":\"/ctrllib/gallery/data/imageGallery/SampleImage1.svg\",\"SampleText\":\"Vestibulum dui felis, fringilla nec mi sed, tristique dictum nisi.\"}]",
+      "OriginalName": "CustomGallerySample",
+      "OrderedColumnNames": [
+        "SampleImage",
+        "SampleHeading",
+        "SampleText"
+      ]
+    },
+    {
+      "Name": "DropDownSample",
+      "Schema": "*[Value:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[Value:s]",
+      "Data": "[{\"Value\":\"1\"},{\"Value\":\"2\"},{\"Value\":\"3\"}]",
+      "OriginalName": "DropDownSample",
+      "OrderedColumnNames": [
+        "Value"
+      ]
+    },
+    {
+      "Name": "Tickets",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "Tickets",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "Tickets": "{\"name\":\"Tickets\",\"title\":\"Tickets\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"ID\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"ID\"},\"Owner\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Owner\"},\"Status\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Status\"},\"AccountName\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AccountName\"},\"DateCreated\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DateCreated\"},\"DateClosed\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"DateClosed\"},\"Subject\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Subject\"},\"Description\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Description\"},\"Priority\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Priority\"},\"AssignedTo\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AssignedTo\"},\"Comment\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Comment\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "TicketTypes",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "TicketTypes",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "TicketTypes": "{\"name\":\"TicketTypes\",\"title\":\"TicketTypes\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"TicketTypes\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"TicketTypes\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "Filterby",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "Filterby",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "Filterby": "{\"name\":\"Filterby\",\"title\":\"Filterby\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Filter_x0020_By\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Filter By\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "CaseStatus",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "CaseStatus",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "CaseStatus": "{\"name\":\"CaseStatus\",\"title\":\"CaseStatus\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"StatusCase\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"StatusCase\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "PriorityTypes",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "PriorityTypes",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "PriorityTypes": "{\"name\":\"PriorityTypes\",\"title\":\"PriorityTypes\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"PriorityTypes\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"PriorityTypes\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "Attendants",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "Attendants",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "Attendants": "{\"name\":\"Attendants\",\"title\":\"Attendants\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Name\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    },
+    {
+      "Name": "AccountNameTypes",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS",
+      "TableName": "AccountNameTypes",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2024-10-17T16:17:52.358Z"
+      },
+      "DataEntityMetadataJson": {
+        "AccountNameTypes": "{\"name\":\"AccountNameTypes\",\"title\":\"AccountNameTypes\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"AccountNameTypes\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"AccountNameTypes\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {}
+    }
+  ]
+}

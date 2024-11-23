@@ -1,0 +1,611 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  CreatenewticketPage:
+    Properties:
+      Fill: =RGBA(255, 255, 255, 1)
+      Height: =Max(App.Height, App.DesignHeight)
+      OnVisible: =UpdateContext({msg_visible:false})
+      Width: =Max(App.Width, App.DesignWidth)
+    Children:
+      - TextBox5_44:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Left
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(92,92,92,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox5_44.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =31.2332015810276
+            HoverBorderColor: =TextBox5_44.BorderColor
+            HoverColor: =TextBox5_44.Color
+            HoverFill: =TextBox5_44.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox5_44.BorderColor
+            PressedColor: =TextBox5_44.Color
+            PressedFill: =TextBox5_44.Fill
+            Role: =TextRole.Default
+            Size: =12
+            Text: ="Description *"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =225
+            X: =420.5487677889628
+            Y: =330.402985074627
+      - TextBox5_43:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Left
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(92,92,92,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox5_43.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =31.2332015810276
+            HoverBorderColor: =TextBox5_43.BorderColor
+            HoverColor: =TextBox5_43.Color
+            HoverFill: =TextBox5_43.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox5_43.BorderColor
+            PressedColor: =TextBox5_43.Color
+            PressedFill: =TextBox5_43.Fill
+            Role: =TextRole.Default
+            Size: =12
+            Text: ="Subject *"
+            VerticalAlign: =VerticalAlign.Top
+            Width: =225
+            X: =421.24588684266973
+            Y: =234.13993274733
+      - Rectangle1_6:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_6.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_6.BorderColor
+            Height: =60
+            HoverFill: =Rectangle1_6.Fill
+            PressedFill: =Rectangle1_6.Fill
+            TabIndex: =0
+            Width: =1024
+      - TextBox4_3:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox4_3.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            Height: =60
+            HoverBorderColor: =TextBox4_3.BorderColor
+            HoverColor: =TextBox4_3.Color
+            HoverFill: =TextBox4_3.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox4_3.BorderColor
+            PressedColor: =TextBox4_3.Color
+            PressedFill: =TextBox4_3.Fill
+            Role: =TextRole.Default
+            Size: =20
+            Text: ="Create new ticket"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =1024
+      - Subject:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            Align: =Align.Left
+            BorderColor: =RGBA(230,230,230,1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            Color: =RGBA(47, 41, 43, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(159, 167, 165, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =Subject.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            Format: =TextFormat.Text
+            Height: =44
+            HoverBorderColor: =Subject.BorderColor
+            HoverColor: =Subject.Color
+            HoverFill: =Subject.Fill
+            Mode: =TextMode.SingleLine
+            PressedBorderColor: =Subject.HoverBorderColor
+            PressedColor: =Subject.Color
+            PressedFill: =Subject.Fill
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Reset: =Button2.Pressed
+            Size: =13
+            VirtualKeyboardMode: =VirtualKeyboardMode.Auto
+            Width: =554.6268656716418
+            X: =428.0750901520428
+            Y: =264.850355436258
+      - Description:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            Align: =Align.Left
+            BorderColor: =RGBA(230,230,230,1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            Color: =RGBA(47, 41, 43, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(159, 167, 165, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =Description.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            Format: =TextFormat.Text
+            Height: =237.140323579729
+            HoverBorderColor: =Description.BorderColor
+            HoverColor: =Description.Color
+            HoverFill: =Description.Fill
+            Mode: =TextMode.MultiLine
+            PressedBorderColor: =Description.HoverBorderColor
+            PressedColor: =Description.Color
+            PressedFill: =Description.Fill
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Reset: =Button2.Pressed
+            Size: =13
+            VirtualKeyboardMode: =VirtualKeyboardMode.Auto
+            Width: =554.5777160686325
+            X: =428.0996649535468
+            Y: =362.2594142259424
+      - Button1_1:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Align: =Align.Center
+            AutoDisableOnSelect: =false
+            BorderColor: =ColorFade(Button1_1.Fill, -15%)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            Color: =RGBA(255,255,255,1)
+            DisabledBorderColor: =ColorFade(Button1_1.BorderColor, 70%)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisabledFill: =ColorFade(RGBA(159, 167, 165, 1), 50%)
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(107,0,64,.8)
+            FocusedBorderColor: =Button1_1.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =50
+            HoverBorderColor: =Button1_1.BorderColor
+            HoverColor: =Button1_1.Color
+            HoverFill: =Button1_1.Fill
+            OnSelect: =If(IsBlank(Subject.Text) || IsBlank(Description.Text) ,UpdateContext({msg_visible:true}),SubmitForm(NewTicketForm);UpdateContext({New:Patch(Tickets,LookUp(Tickets,ID=Text(Max(Tickets,ID))),{Subject:Subject.Text,Description:Description.Text})}))
+            PressedBorderColor: =Button1_1.BorderColor
+            PressedColor: =Button1_1.Color
+            PressedFill: =ColorFade(Button1_1.Fill, 20%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: ="Create ticket"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =1024
+            Y: =718
+      - Rectangle1_8:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_8.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(242, 242, 242, .5)
+            FocusedBorderColor: =Rectangle1_8.BorderColor
+            Height: =147.7012987012987
+            HoverFill: =Rectangle1_8.Fill
+            PressedFill: =Rectangle1_8.Fill
+            TabIndex: =0
+            Width: =1024
+            Y: =60
+      - Rectangle6_15:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle6_15.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, .1)
+            FocusedBorderColor: =Rectangle6_15.BorderColor
+            HoverFill: =Rectangle6_15.Fill
+            PressedFill: =Rectangle6_15.Fill
+            TabIndex: =0
+            Width: =1
+            Y: =78.8235294117628
+      - Rectangle6_16:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle6_16.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, .1)
+            FocusedBorderColor: =Rectangle6_16.BorderColor
+            HoverFill: =Rectangle6_16.Fill
+            PressedFill: =Rectangle6_16.Fill
+            TabIndex: =0
+            Width: =1
+            X: =204.49266279590034
+            Y: =78.8235294117628
+      - Rectangle6_17:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle6_17.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, .1)
+            FocusedBorderColor: =Rectangle6_17.BorderColor
+            HoverFill: =Rectangle6_17.Fill
+            PressedFill: =Rectangle6_17.Fill
+            TabIndex: =0
+            Width: =1
+            X: =409.1321118611379
+            Y: =78.8235294117628
+      - Rectangle6_18:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle6_18.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, .1)
+            FocusedBorderColor: =Rectangle6_18.BorderColor
+            HoverFill: =Rectangle6_18.Fill
+            PressedFill: =Rectangle6_18.Fill
+            TabIndex: =0
+            Width: =1
+            X: =613.4636973799783
+            Y: =78.8235294117628
+      - Rectangle6_19:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle6_19.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, .1)
+            FocusedBorderColor: =Rectangle6_19.BorderColor
+            HoverFill: =Rectangle6_19.Fill
+            PressedFill: =Rectangle6_19.Fill
+            TabIndex: =0
+            Width: =1
+            X: =817.8842105263159
+            Y: =78.8235294117628
+      - Rectangle1_7:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_7.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_7.BorderColor
+            Height: =58
+            HoverFill: =Rectangle1_7.Fill
+            OnSelect: =Navigate(DashboardPage,ScreenTransition.Fade);ResetForm(NewTicketForm)
+            PressedFill: =Rectangle1_7.Fill
+            TabIndex: =0
+            Width: =60
+      - TextBox1_25:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(0,0,0,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox1_25.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =150
+            HoverBorderColor: =TextBox1_25.BorderColor
+            HoverColor: =TextBox1_25.Color
+            HoverFill: =TextBox1_25.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox1_25.BorderColor
+            PressedColor: =TextBox1_25.Color
+            PressedFill: =TextBox1_25.Fill
+            Role: =TextRole.Default
+            Size: =32
+            Text: =CountRows(Tickets)
+            VerticalAlign: =VerticalAlign.Middle
+            Wrap: =false
+            X: =27.400000000000005
+            Y: =47.5300931183284
+      - TextBox2_25:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(0,0,0,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox2_25.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2_25.BorderColor
+            HoverColor: =TextBox2_25.Color
+            HoverFill: =TextBox2_25.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2_25.BorderColor
+            PressedColor: =TextBox2_25.Color
+            PressedFill: =TextBox2_25.Fill
+            Role: =TextRole.Default
+            Size: =10
+            Text: ="All tickets"
+            VerticalAlign: =VerticalAlign.Middle
+            X: =27.400000000000005
+            Y: =133.2017349093727
+      - TextBox1_26:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(56,86,153,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox1_26.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =150
+            HoverBorderColor: =TextBox1_26.BorderColor
+            HoverColor: =TextBox1_26.Color
+            HoverFill: =TextBox1_26.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox1_26.BorderColor
+            PressedColor: =TextBox1_26.Color
+            PressedFill: =TextBox1_26.Fill
+            Role: =TextRole.Default
+            Size: =32
+            Text: =CountRows(Filter(Tickets,Status="New"))
+            VerticalAlign: =VerticalAlign.Middle
+            Wrap: =false
+            X: =231.89266279590035
+            Y: =47.5300931183284
+      - TextBox2_26:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(56,86,153,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox2_26.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2_26.BorderColor
+            HoverColor: =TextBox2_26.Color
+            HoverFill: =TextBox2_26.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2_26.BorderColor
+            PressedColor: =TextBox2_26.Color
+            PressedFill: =TextBox2_26.Fill
+            Role: =TextRole.Default
+            Size: =10
+            Text: =If(TextBox1_21.Text="1","New ticket","New tickets")
+            VerticalAlign: =VerticalAlign.Middle
+            X: =231.89266279590035
+            Y: =133.2017349093737
+      - TextBox1_27:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(195,179,5,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox1_27.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =150
+            HoverBorderColor: =TextBox1_27.BorderColor
+            HoverColor: =TextBox1_27.Color
+            HoverFill: =TextBox1_27.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox1_27.BorderColor
+            PressedColor: =TextBox1_27.Color
+            PressedFill: =TextBox1_27.Fill
+            Role: =TextRole.Default
+            Size: =32
+            Text: =CountRows(Filter(Tickets,Status="In progress"))
+            VerticalAlign: =VerticalAlign.Middle
+            Wrap: =false
+            X: =435.43921568627445
+            Y: =47.5300931183284
+      - TextBox2_27:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(195,179,5,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox2_27.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2_27.BorderColor
+            HoverColor: =TextBox2_27.Color
+            HoverFill: =TextBox2_27.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2_27.BorderColor
+            PressedColor: =TextBox2_27.Color
+            PressedFill: =TextBox2_27.Fill
+            Role: =TextRole.Default
+            Size: =10
+            Text: ="In progress"
+            VerticalAlign: =VerticalAlign.Middle
+            X: =435.43921568627445
+            Y: =133.2017349093737
+      - TextBox2_28:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(71,185,50,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox2_28.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2_28.BorderColor
+            HoverColor: =TextBox2_28.Color
+            HoverFill: =TextBox2_28.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2_28.BorderColor
+            PressedColor: =TextBox2_28.Color
+            PressedFill: =TextBox2_28.Fill
+            Role: =TextRole.Default
+            Size: =10
+            Text: ="Closed"
+            VerticalAlign: =VerticalAlign.Middle
+            X: =638.890013169452
+            Y: =133.2017349093737
+      - TextBox1_28:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(71,185,50,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox1_28.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =150
+            HoverBorderColor: =TextBox1_28.BorderColor
+            HoverColor: =TextBox1_28.Color
+            HoverFill: =TextBox1_28.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox1_28.BorderColor
+            PressedColor: =TextBox1_28.Color
+            PressedFill: =TextBox1_28.Fill
+            Role: =TextRole.Default
+            Size: =32
+            Text: =CountRows(Filter(Tickets,Status="Closed"))
+            VerticalAlign: =VerticalAlign.Middle
+            Wrap: =false
+            X: =638.890013169452
+            Y: =47.5300931183284
+      - TextBox1_29:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(227,48,12,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox1_29.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =150
+            HoverBorderColor: =TextBox1_29.BorderColor
+            HoverColor: =TextBox1_29.Color
+            HoverFill: =TextBox1_29.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox1_29.BorderColor
+            PressedColor: =TextBox1_29.Color
+            PressedFill: =TextBox1_29.Fill
+            Role: =TextRole.Default
+            Size: =32
+            Text: =CountRows(Filter(Tickets,Status="On hold"))
+            VerticalAlign: =VerticalAlign.Middle
+            Wrap: =false
+            X: =848.0580187298873
+            Y: =47.5300931183284
+      - TextBox2_29:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(227,48,12,1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox2_29.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2_29.BorderColor
+            HoverColor: =TextBox2_29.Color
+            HoverFill: =TextBox2_29.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2_29.BorderColor
+            PressedColor: =TextBox2_29.Color
+            PressedFill: =TextBox2_29.Fill
+            Role: =TextRole.Default
+            Size: =10
+            Text: ="On hold"
+            VerticalAlign: =VerticalAlign.Middle
+            X: =848.0580187298873
+            Y: =133.2017349093737
+      - TextBox2:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(237, 28, 36, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(230, 229, 229, 1)
+            FocusedBorderColor: =TextBox2.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            HoverBorderColor: =TextBox2.BorderColor
+            HoverColor: =TextBox2.Color
+            HoverFill: =TextBox2.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox2.BorderColor
+            PressedColor: =TextBox2.Color
+            PressedFill: =TextBox2.Fill
+            Role: =TextRole.Default
+            Size: =13
+            Text: ="Please fill out the required fields *"
+            VerticalAlign: =VerticalAlign.Middle
+            Visible: =msg_visible
+            Width: =1024
+            Y: =679.4285714285716
+      - Rectangle7_23:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle7_23.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderColor: =Rectangle7_23.BorderColor
+            Height: =1
+            HoverFill: =Rectangle7_23.Fill
+            PressedFill: =Rectangle7_23.Fill
+            TabIndex: =0
+            Width: =1024
+            Y: =207

@@ -1,0 +1,2615 @@
+{
+  "CurrentTheme": "defaultTheme",
+  "CustomThemes": [
+    {
+      "name": "defaultTheme",
+      "palette": [
+        {
+          "name": "ScreenBkgColor",
+          "value": "RGBA(255,255,255,1)",
+          "type": "c"
+        },
+        {
+          "name": "InvertedBkgColor",
+          "value": "RGBA(62,96,170,1)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor1",
+          "value": "RGBA(62,96,170,1)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor2",
+          "value": "RGBA(101,128,187,1)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor3",
+          "value": "RGBA(190,202,226,1)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor1Light",
+          "value": "RGBA(62,96,170,.2)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor2Light",
+          "value": "RGBA(101,128,187,.2)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor3Light",
+          "value": "RGBA(190,202,226,.2)",
+          "type": "c"
+        },
+        {
+          "name": "PrimaryColor3Fade",
+          "value": "ColorFade(RGBA(190,202,226,1), 70%)",
+          "type": "c"
+        },
+        {
+          "name": "TextMainColor",
+          "value": "RGBA(47,41,43,1)",
+          "type": "c"
+        },
+        {
+          "name": "TextMainColorInverted",
+          "value": "RGBA(255,255,255,1)",
+          "type": "c"
+        },
+        {
+          "name": "TextLinkColor",
+          "value": "RGBA(0, 134, 208, 1)",
+          "type": "c"
+        },
+        {
+          "name": "TextFooterFontColor",
+          "value": "RGBA(132, 132, 132, 1)",
+          "type": "c"
+        },
+        {
+          "name": "InputBkgColor",
+          "value": "RGBA(255, 255, 255, 1)",
+          "type": "c"
+        },
+        {
+          "name": "InputTextColor",
+          "value": "RGBA(47, 41, 43, 1)",
+          "type": "c"
+        },
+        {
+          "name": "InputBorderColor",
+          "value": "RGBA(101, 128, 187, 1)",
+          "type": "c"
+        },
+        {
+          "name": "RailBkgColor",
+          "value": "RGBA(128, 130, 133, 1)",
+          "type": "c"
+        },
+        {
+          "name": "HandleBkgColor",
+          "value": "RGBA(255, 255, 255, 1)",
+          "type": "c"
+        },
+        {
+          "name": "InnerCircleBkgColor",
+          "value": "ColorFade(RGBA(255,255,255,1), -5%)",
+          "type": "c"
+        },
+        {
+          "name": "DisabledBorderColor",
+          "value": "RGBA(159, 167, 165, 1)",
+          "type": "c"
+        },
+        {
+          "name": "DisabledTextMainColor",
+          "value": "ColorFade(RGBA(47, 41, 43, 1), 70%)",
+          "type": "c"
+        },
+        {
+          "name": "DisabledInputBkgColor",
+          "value": "ColorFade(RGBA(159, 167, 165, 1), 50%)",
+          "type": "c"
+        },
+        {
+          "name": "DisabledButtonBkgColor",
+          "value": "RGBA(193, 193, 193, 0.95)",
+          "type": "c"
+        },
+        {
+          "name": "HoverButtonBkgColor",
+          "value": "ColorFade(RGBA(101, 128, 187, 1), 30%)",
+          "type": "c"
+        },
+        {
+          "name": "HoverCancelButtonBkgColor",
+          "value": "ColorFade(RGBA(62, 96, 170, 1), 20%)",
+          "type": "c"
+        },
+        {
+          "name": "HoverInputBkgColor",
+          "value": "ColorFade(RGBA(190, 202, 226, 1), 30%)",
+          "type": "c"
+        },
+        {
+          "name": "OverlayBkgColor",
+          "value": "RGBA(0, 0, 0, 0.4)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedInfoColor",
+          "value": "RGBA(0, 134, 208, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedSuccessColor",
+          "value": "RGBA(141, 198, 63, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedWarningColor",
+          "value": "RGBA(252, 219, 2, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedErrorColor",
+          "value": "RGBA(246, 88, 16, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedCriticalErrorColor",
+          "value": "RGBA(237, 28, 36, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedDisabledStatusColor",
+          "value": "RGBA(193, 193, 193, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedWhiteColor",
+          "value": "RGBA(255, 255, 255, 1)",
+          "type": "c"
+        },
+        {
+          "name": "ReservedChartColorSet",
+          "value": "[RGBA(49, 130, 93, 1),RGBA(48,166,103, 1), RGBA(94,193,108,1), RGBA(246,199,144,1), RGBA(247,199,114,1), RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), RGBA(118, 154, 204, 1), RGBA(96, 197, 234, 1)]",
+          "type": "![]"
+        },
+        {
+          "name": "TextBodyFontWeight",
+          "value": "%FontWeight.RESERVED%.Normal",
+          "type": "e"
+        },
+        {
+          "name": "TextEmphasisFontWeight",
+          "value": "%FontWeight.RESERVED%.Semibold",
+          "type": "e"
+        },
+        {
+          "name": "TextBodyFontFace",
+          "value": "%Font.RESERVED%.'Open Sans'",
+          "type": "e"
+        },
+        {
+          "name": "InputBorderThickness",
+          "value": "2",
+          "type": "n"
+        },
+        {
+          "name": "InputFocusedBorderThickness",
+          "value": "4",
+          "type": "n"
+        },
+        {
+          "name": "TextHeaderFontSize",
+          "value": "18",
+          "phoneValue": "27",
+          "type": "n"
+        },
+        {
+          "name": "TextTitleFontSize",
+          "value": "20",
+          "type": "n"
+        },
+        {
+          "name": "TextSubtitleFontSize",
+          "value": "18",
+          "type": "n"
+        },
+        {
+          "name": "TextContentFontSize",
+          "value": "16",
+          "type": "n"
+        },
+        {
+          "name": "TextEmphasisFontSize",
+          "value": "15",
+          "phoneValue": "24",
+          "type": "n"
+        },
+        {
+          "name": "TextBodyFontSize",
+          "value": "13",
+          "phoneValue": "21",
+          "type": "n"
+        },
+        {
+          "name": "TextFooterFontSize",
+          "value": "11",
+          "phoneValue": "18",
+          "type": "n"
+        },
+        {
+          "name": "TextMiniFontSize",
+          "value": "9",
+          "phoneValue": "15",
+          "type": "n"
+        },
+        {
+          "name": "IconFillColorInverted",
+          "value": "RGBA(255, 255, 255, 1)",
+          "type": "c"
+        },
+        {
+          "name": "IconPressedFillColorInverted",
+          "value": "RGBA(255, 255, 255, 0.3)",
+          "type": "c"
+        }
+      ],
+      "styles": [
+        {
+          "name": "defaultScreenStyle",
+          "controlTemplateName": "screen",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.ScreenBkgColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "basicNoSizeLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "basicNoSizeInvertedBkgLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "invertedBkgHeaderLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextHeaderFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "invertedBkgTitleLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextTitleFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "linkLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextLinkColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "headerLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextHeaderFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "subHeaderLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "titleLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextTitleFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "overlayTitleLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextTitleFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "subtitleLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextSubtitleFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "overlaySubtitleLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextSubtitleFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "contentLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextContentFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "accentLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "pickerEmphasisLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "pickerEmphasisWithAccentLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "pickerEmphasisSecondaryLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextFooterFontColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "footerAccentLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextFooterFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "footerLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextFooterFontColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextFooterFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "miniLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextMiniFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "miniInvertedBkgLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextMiniFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "disabledLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedDisabledStatusColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "infoLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextLinkColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "successLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedSuccessColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "warningLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedWarningColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "errorLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedErrorColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "criticalErrorLabelStyle",
+          "controlTemplateName": "label",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedCriticalErrorColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "defaultToggleSwitchStyle",
+          "controlTemplateName": "toggleSwitch",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "HandleFill",
+              "value": "%Palette.HandleBkgColor%"
+            },
+            {
+              "property": "TrueFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "FalseFill",
+              "value": "%Palette.RailBkgColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultRatingStyle",
+          "controlTemplateName": "rating",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "RatingFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultCheckboxStyle",
+          "controlTemplateName": "checkbox",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "CheckboxBackgroundFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "CheckboxBorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "CheckmarkFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultRadioStyle",
+          "controlTemplateName": "radio",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "RadioBackgroundFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "RadioBorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "RadioSelectionFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultListboxStyle",
+          "controlTemplateName": "listbox",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledSelectionColor",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "DisabledSelectionFill",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.HoverInputBkgColor%"
+            },
+            {
+              "property": "PressedColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "PressedFill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "SelectionColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "SelectionFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultDropdownStyle",
+          "controlTemplateName": "dropdown",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "ChevronBackground",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "ChevronFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "ChevronHoverBackground",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "ChevronHoverFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "ChevronDisabledBackground",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ChevronDisabledFill",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.HoverInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            },
+            {
+              "property": "PressedColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "PressedFill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "SelectionColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "SelectionFill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        },
+        {
+          "name": "defaultDatePickerStyle",
+          "controlTemplateName": "datepicker",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "IconFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "SelectedDateFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "HoverDateFill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "CalendarHeaderFill",
+              "value": "%Palette.PrimaryColor2%"
+            }
+          ]
+        },
+        {
+          "name": "defaultLookupStyle",
+          "controlTemplateName": "lookup",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "ChevronBackground",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "ChevronFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "ChevronHoverBackground",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "ChevronHoverFill",
+              "value": "%Palette.InnerCircleBkgColor%"
+            },
+            {
+              "property": "ChevronDisabledBackground",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ChevronDisabledFill",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.HoverInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            },
+            {
+              "property": "PressedColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "PressedFill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "SelectionColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "SelectionFill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "FooterSize",
+              "value": "%Palette.TextFooterFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultTextStyle",
+          "controlTemplateName": "text",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "HoverBorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.HoverInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "searchTextStyle",
+          "controlTemplateName": "text",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.None"
+            },
+            {
+              "property": "BorderThickness",
+              "value": "%Palette.InputBorderThickness%"
+            },
+            {
+              "property": "FocusedBorderThickness",
+              "value": "%Palette.InputFocusedBorderThickness%"
+            },
+            {
+              "property": "HoverBorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.HoverInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultSliderStyle",
+          "controlTemplateName": "slider",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "BorderStyle",
+              "value": "%BorderStyle.RESERVED%.Solid"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "HandleFill",
+              "value": "%Palette.HandleBkgColor%"
+            },
+            {
+              "property": "RailFill",
+              "value": "%Palette.RailBkgColor%"
+            },
+            {
+              "property": "ValueFill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        },
+        {
+          "name": "defaultButtonStyle",
+          "controlTemplateName": "button",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "cancelButtonStyle",
+          "controlTemplateName": "button",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "rezervedOkButtonStyle",
+          "controlTemplateName": "button",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedWhiteColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.ReservedInfoColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "rezervedCancelButtonStyle",
+          "controlTemplateName": "button",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.ReservedInfoColor%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.ReservedWhiteColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultLineChartStyle",
+          "controlTemplateName": "lineChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "%Palette.ReservedChartColorSet%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "monochromeAccentLineChartStyle",
+          "controlTemplateName": "lineChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "[%Palette.PrimaryColor1%]"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultPieChartStyle",
+          "controlTemplateName": "pieChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "%Palette.ReservedChartColorSet%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "monochromeAccentPieChartStyle",
+          "controlTemplateName": "pieChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "[%Palette.PrimaryColor1%]"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultBarChartStyle",
+          "controlTemplateName": "barChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "%Palette.ReservedChartColorSet%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "monochromeAccentBarChartStyle",
+          "controlTemplateName": "barChart",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "ItemColorSet",
+              "value": "[%Palette.PrimaryColor1%]"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultLegendStyle",
+          "controlTemplateName": "legend",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextFooterFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "separatorShapeStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultVideoPlaybackStyle",
+          "controlTemplateName": "videoPlayback",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        },
+        {
+          "name": "defaultTimerStyle",
+          "controlTemplateName": "timer",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            }
+          ]
+        },
+        {
+          "name": "defaultTriangleStyle",
+          "controlTemplateName": "triangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultStarStyle",
+          "controlTemplateName": "star",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultPentagonStyle",
+          "controlTemplateName": "pentagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultPartialCircleStyle",
+          "controlTemplateName": "partialCircle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultOctagonStyle",
+          "controlTemplateName": "octagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultHexagonStyle",
+          "controlTemplateName": "hexagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary2HexagonStyle",
+          "controlTemplateName": "hexagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3HexagonStyle",
+          "controlTemplateName": "hexagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3FadeHexagonStyle",
+          "controlTemplateName": "hexagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3Fade%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "screenHexagonStyle",
+          "controlTemplateName": "hexagon",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.ScreenBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultCircleStyle",
+          "controlTemplateName": "circle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary2CircleStyle",
+          "controlTemplateName": "circle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3CircleStyle",
+          "controlTemplateName": "circle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3FadeCircleStyle",
+          "controlTemplateName": "circle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3Fade%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultArrowStyle",
+          "controlTemplateName": "arrow",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultIconStyle",
+          "controlTemplateName": "icon",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledButtonBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary1IconStyle",
+          "controlTemplateName": "icon",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledButtonBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3IconStyle",
+          "controlTemplateName": "icon",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledButtonBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "invertedBkgHeaderIconStyle",
+          "controlTemplateName": "icon",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.IconFillColorInverted%"
+            },
+            {
+              "property": "PressedFill",
+              "value": "%Palette.IconPressedFillColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledButtonBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultMicrophoneStyle",
+          "controlTemplateName": "microphone",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        },
+        {
+          "name": "defaultInkControlStyle",
+          "controlTemplateName": "inkcontrol",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultImportStyle",
+          "controlTemplateName": "import",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultImageStyle",
+          "controlTemplateName": "image",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledButtonBkgColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultHtmlViewerStyle",
+          "controlTemplateName": "htmlviewer",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "typedDataCardHtmlViewerStyle",
+          "controlTemplateName": "htmlviewer",
+          "propertyValuesMap": [
+            {
+              "property": "DisabledBorderColor",
+              "value": "%Palette.DisabledBorderColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextLinkColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultExportStyle",
+          "controlTemplateName": "export",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextEmphasisFontWeight%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "DisabledFill",
+              "value": "%Palette.DisabledInputBkgColor%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextEmphasisFontSize%"
+            }
+          ]
+        },
+        {
+          "name": "defaultAddMediaStyle",
+          "controlTemplateName": "addMedia",
+          "propertyValuesMap": [
+            {
+              "property": "Color",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.InputBkgColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultAudioPlaybackStyle",
+          "controlTemplateName": "audioplayback",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        },
+        {
+          "name": "defaultRectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary2RectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3RectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "primary3FadeRectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.PrimaryColor3Fade%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "invertedBackgroundRectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.InvertedBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "overlayRectangleStyle",
+          "controlTemplateName": "rectangle",
+          "propertyValuesMap": [
+            {
+              "property": "Fill",
+              "value": "%Palette.OverlayBkgColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultTypedDataCardStyle",
+          "controlTemplateName": "typedDataCard",
+          "propertyValuesMap": [
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultEntityFormStyle",
+          "controlTemplateName": "entityForm",
+          "propertyValuesMap": [
+            {
+              "property": "TextColor",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "InputTextColor",
+              "value": "%Palette.InputTextColor%"
+            },
+            {
+              "property": "DisabledTextColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.ScreenBkgColor%"
+            },
+            {
+              "property": "PrimaryColor1",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "PrimaryColor2",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "PrimaryColor3",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "InputBackgroundColor",
+              "value": "%Palette.InputBkgColor%"
+            }
+          ]
+        },
+        {
+          "name": "defaultDataGridStyle",
+          "controlTemplateName": "dataGrid",
+          "propertyValuesMap": [
+            {
+              "property": "LinkColor",
+              "value": "%Palette.TextLinkColor%"
+            },
+            {
+              "property": "PrimaryColor1",
+              "value": "%Palette.PrimaryColor1%"
+            },
+            {
+              "property": "PrimaryColor2",
+              "value": "%Palette.PrimaryColor2%"
+            },
+            {
+              "property": "PrimaryColor3",
+              "value": "%Palette.PrimaryColor3%"
+            },
+            {
+              "property": "Color",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "InvertedColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "DisabledColor",
+              "value": "%Palette.DisabledTextMainColor%"
+            },
+            {
+              "property": "Fill",
+              "value": "%Palette.ScreenBkgColor%"
+            },
+            {
+              "property": "SelectedFill",
+              "value": "%Palette.PrimaryColor2Light%"
+            },
+            {
+              "property": "SelectedColor",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "HoverFill",
+              "value": "%Palette.PrimaryColor3Light%"
+            },
+            {
+              "property": "HoverColor",
+              "value": "%Palette.TextMainColor%"
+            },
+            {
+              "property": "BorderColor",
+              "value": "%Palette.InputBorderColor%"
+            },
+            {
+              "property": "InputFill",
+              "value": "%Palette.InputBkgColor%"
+            },
+            {
+              "property": "Font",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "FontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "Size",
+              "value": "%Palette.TextBodyFontSize%"
+            },
+            {
+              "property": "HeadingFont",
+              "value": "%Palette.TextBodyFontFace%"
+            },
+            {
+              "property": "HeadingFontWeight",
+              "value": "%Palette.TextBodyFontWeight%"
+            },
+            {
+              "property": "HeadingSize",
+              "value": "%Palette.TextBodyFontSize%"
+            },
+            {
+              "property": "HeadingColor",
+              "value": "%Palette.TextMainColorInverted%"
+            },
+            {
+              "property": "HeadingFill",
+              "value": "%Palette.PrimaryColor1%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

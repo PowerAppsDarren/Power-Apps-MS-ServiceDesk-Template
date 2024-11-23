@@ -1,0 +1,41 @@
+CanvasApp:
+  Name: spl_microsoftsservicedesktemplateapp_a6c96
+  AppVersion: 2024-11-23T13:30:29.0000000Z
+  Status: Ready
+  CreatedByClientVersion: 3.24112.10.0
+  MinClientVersion: 3.24112.10.0
+  Tags: '{"primaryDeviceWidth":"1024","primaryDeviceHeight":"768","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24112.10","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20241123T133029Z-3.24112.10.0"}'
+  IsCdsUpgraded: 0
+  GalleryItemId:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  BackgroundColor: rgba(104, 101, 171, 1)
+  DisplayName: Microsofts-ServiceDesk-Template-App
+  Description:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  CommitMessage:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  Publisher:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  AuthorizationReferences: '[]'
+  ConnectionReferences: '{"b778bae5-19df-4faa-82d9-13857f42b68d":{"id":"/providers/microsoft.powerapps/apis/shared_excel","displayName":"Excel","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1718/1.0.1718.3944/excel/icon.png","dataSources":["Tickets","TicketTypes","Filterby","CaseStatus","PriorityTypes","Attendants","AccountNameTypes"],"dependencies":["3ebdd5c3-88e8-4617-b0a4-9cc8f5eb14b0"],"dependents":[],"parameterHints":{"3ebdd5c3-88e8-4617-b0a4-9cc8f5eb14b0":{"value":"fileSource"}},"parameterHintsV2":{"fileSource":{"value":"3ebdd5c3-88e8-4617-b0a4-9cc8f5eb14b0"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"b!58DLFHacQE6RbNpUD_NPAmHB7LuNIepLm5CoYACY7Re_t0ioD2s4QZe-QT9sz2s1.01WOPXLV7SYT2DCV3CVVFYPAO6DHH44UCS":{"dataSources":{"Tickets":{"tableName":"Tickets"},"TicketTypes":{"tableName":"TicketTypes"},"Filterby":{"tableName":"Filterby"},"CaseStatus":{"tableName":"CaseStatus"},"PriorityTypes":{"tableName":"PriorityTypes"},"Attendants":{"tableName":"Attendants"},"AccountNameTypes":{"tableName":"AccountNameTypes"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]},"3ebdd5c3-88e8-4617-b0a4-9cc8f5eb14b0":{"id":"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness","displayName":"OneDrive for Business","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1689/1.0.1689.3722/onedriveforbusiness/icon.png","dataSources":[],"dependencies":[],"dependents":["b778bae5-19df-4faa-82d9-13857f42b68d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}'
+  DatabaseReferences: '{}'
+  AppComponents: '[]'
+  AppComponentDependencies: '[]'
+  CanConsumeAppPass: 0
+  CanvasAppType: 0
+  BypassConsent: 0
+  AdminControlBypassConsent: 0
+  EmbeddedApp:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  IntroducedVersion: 1.0
+  CdsDependencies: '{"cdsdependencies":[]}'
+  IsCustomizable: 1
+  BackgroundImageUri: /canvasapps/spl_microsoftsservicedesktemplateapp_a6c96/spl_microsoftsservicedesktemplateapp_a6c96_BackgroundImageUri
+  DocumentUri: /canvasapps/spl_microsoftsservicedesktemplateapp_a6c96/spl_microsoftsservicedesktemplateapp_a6c96_DocumentUri.msapp
+  AdditionalUris:
+    AdditionalUri: /canvasapps/spl_microsoftsservicedesktemplateapp_a6c96/spl_microsoftsservicedesktemplateapp_a6c96_AdditionalUris0_identity.json

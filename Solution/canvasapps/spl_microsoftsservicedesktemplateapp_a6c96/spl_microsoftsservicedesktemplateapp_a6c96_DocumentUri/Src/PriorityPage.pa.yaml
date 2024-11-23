@@ -1,0 +1,141 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  PriorityPage:
+    Properties:
+      Fill: =RGBA(255,255,255,1)
+      Height: =Max(App.Height, App.DesignHeight)
+      Width: =Max(App.Width, App.DesignWidth)
+    Children:
+      - Rectangle1_16:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_16.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_16.BorderColor
+            Height: =60
+            HoverFill: =Rectangle1_16.Fill
+            PressedFill: =Rectangle1_16.Fill
+            TabIndex: =0
+            Width: =1024
+      - TextBox4_7:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox4_7.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            Height: =60
+            HoverBorderColor: =TextBox4_7.BorderColor
+            HoverColor: =TextBox4_7.Color
+            HoverFill: =TextBox4_7.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox4_7.BorderColor
+            PressedColor: =TextBox4_7.Color
+            PressedFill: =TextBox4_7.Fill
+            Role: =TextRole.Default
+            Size: =20
+            Text: ="Priority"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =1024
+      - PriorityGallery:
+          Control: Gallery@2.15.0
+          Variant: Vertical
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DelayItemLoading: =false
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(242, 244, 249, .5)
+            Height: =708
+            Items: =PriorityTypes
+            LoadingSpinner: =LoadingSpinner.None
+            LoadingSpinnerColor: =PriorityGallery.BorderColor
+            TemplatePadding: =0
+            TemplateSize: =45.78236914600549
+            Transition: =Transition.None
+            Width: =1024
+            Y: =60
+          Children:
+            - Rectangle7_13:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderStyle: =BorderStyle.Solid
+                  DisabledFill: =Rectangle7_13.Fill
+                  DisplayMode: =DisplayMode.Edit
+                  Fill: =RGBA(204, 204, 204, 1)
+                  FocusedBorderColor: =Rectangle7_13.BorderColor
+                  Height: =1
+                  HoverFill: =Rectangle7_13.Fill
+                  PressedFill: =Rectangle7_13.Fill
+                  TabIndex: =0
+                  Width: =1024
+                  Y: =44.7823691460055
+            - Rectangle7_2:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderStyle: =BorderStyle.Solid
+                  DisabledFill: =Rectangle7_2.Fill
+                  DisplayMode: =DisplayMode.Edit
+                  Fill: =RGBA(62,96,170,0)
+                  FocusedBorderColor: =Rectangle7_2.BorderColor
+                  Height: =45.7823691460055
+                  HoverFill: =Rectangle7_2.Fill
+                  OnSelect: =Navigate(TicketdetailsPage,ScreenTransition.Fade,{priority:PriorityGallery.Selected.PriorityTypes})
+                  PressedFill: =Rectangle7_2.Fill
+                  TabIndex: =0
+                  Width: =1024
+            - TextBox8_3:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Left
+                  BorderStyle: =BorderStyle.Solid
+                  Color: =RGBA(29,33,35,.9)
+                  DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+                  DisplayMode: =DisplayMode.Edit
+                  FocusedBorderColor: =TextBox8_3.BorderColor
+                  Font: =Font.'Open Sans'
+                  FontWeight: =FontWeight.Semibold
+                  Height: =45.7823691460055
+                  HoverBorderColor: =TextBox8_3.BorderColor
+                  HoverColor: =TextBox8_3.Color
+                  HoverFill: =TextBox8_3.Fill
+                  Live: =Live.Off
+                  OnSelect: =Navigate(TicketdetailsPage,ScreenTransition.Fade,{priority:PriorityGallery.Selected.PriorityTypes})
+                  Overflow: =Overflow.Hidden
+                  PressedBorderColor: =TextBox8_3.BorderColor
+                  PressedColor: =TextBox8_3.Color
+                  PressedFill: =TextBox8_3.Fill
+                  Role: =TextRole.Default
+                  Size: =12
+                  Text: =PriorityTypes
+                  VerticalAlign: =VerticalAlign.Middle
+                  Width: =463.0480174576004
+                  X: =15.29894330807049
+      - Rectangle1_17:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_17.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_17.BorderColor
+            Height: =60
+            HoverFill: =Rectangle1_17.Fill
+            OnSelect: =Back()
+            PressedFill: =Rectangle1_17.Fill
+            TabIndex: =0
+            Width: =60

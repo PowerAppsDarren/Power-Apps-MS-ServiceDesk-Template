@@ -1,0 +1,156 @@
+Publisher:
+  UniqueName: SuperPowerLabs
+  LocalizedNames:
+    LocalizedName:
+      '@description': Super Power Labs
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Super Power Labs
+      '@languagecode': 1033
+  EMailAddress: support@superpowerlabs.co
+  SupportingWebsiteUrl: superpowerlabs.co
+  CustomizationPrefix: spl
+  CustomizationOptionValuePrefix: 99000
+  Addresses:
+    Address:
+    - AddressNumber: 1
+      AddressTypeCode: 1
+      City:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      County:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Country: USA
+      Fax:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      FreightTermsCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      ImportSequenceNumber:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Latitude:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line1:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line2:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line3:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Longitude:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Name:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PostalCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PostOfficeBox:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PrimaryContactName:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      ShippingMethodCode: 1
+      StateOrProvince: FL
+      Telephone1:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Telephone2:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Telephone3:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      TimeZoneRuleVersionNumber:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UPSZone:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UTCOffset:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UTCConversionTimeZoneCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+    - AddressNumber: 2
+      AddressTypeCode: 1
+      City:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      County:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Country:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Fax:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      FreightTermsCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      ImportSequenceNumber:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Latitude:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line1:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line2:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Line3:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Longitude:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Name:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PostalCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PostOfficeBox:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      PrimaryContactName:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      ShippingMethodCode: 1
+      StateOrProvince:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Telephone1:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Telephone2:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      Telephone3:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      TimeZoneRuleVersionNumber:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UPSZone:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UTCOffset:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+      UTCConversionTimeZoneCode:
+        '@xsi:nil': true
+        '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance

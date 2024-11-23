@@ -1,0 +1,11 @@
+{
+  "AppName": "Microsofts-ServiceDesk-Template-App",
+  "BackgroundColor": "rgba(104, 101, 171, 1)",
+  "PublishTarget": "player",
+  "LogoFileName": "kk3rkzc2.jpg",
+  "IconColor": "RGBA(255,255,255,1)",
+  "IconName": "Edit",
+  "PublishResourcesLocally": true,
+  "PublishDataLocally": false,
+  "UserLocale": "en-US"
+}

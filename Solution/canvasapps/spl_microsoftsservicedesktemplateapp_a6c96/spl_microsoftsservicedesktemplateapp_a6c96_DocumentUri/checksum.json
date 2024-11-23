@@ -1,0 +1,32 @@
+{
+  "ServerStampedChecksum": "C8_OGuU9LAyywwJjxVBA0AFdo003TaDHtPZtp3ByRT21tQ=",
+  "ServerPerFileChecksums": {
+    ".gitignore": "C8_VaC8EcEG56Ufcy1DFyC8Ky19iV9xSsXMDIAcmF2GTj8=",
+    "AppCheckerResult.sarif": "C8_909DVnAwAW001zrJ+MXiIJ26FmYosMKriUX7EYsk/2k=",
+    "Controls\\1.json": "C8_+9bWWWaDtzI/rA9xGR0GFD302+//iUIr6k2V6TsJM50=",
+    "Controls\\110.json": "C8_AGUMjO5pRkchmNhtsvOBvgGm3N7wFCttQ363+bPUpqE=",
+    "Controls\\17.json": "C8_ODvKPc3qE2dzdMPFKJSwC36NhtO+DgSzGWbRH7Sh0Bg=",
+    "Controls\\175.json": "C8_QF2OAWhktZA3PPctY37iB9A/WyOwORO8gfyY2c7T4Zg=",
+    "Controls\\231.json": "C8_tA+hzPYc1zYspdxCmgTyNJp0njykkZf2xUrbPXFIJNo=",
+    "Controls\\244.json": "C8_GpE99oLc49ZkeVKisA99fDxX7pb60JEzfmvOHDg2qOM=",
+    "Controls\\4.json": "C8_P5tX0CNtQDGw3/B2XHHmk4FU5qWSyU6BMK9iSpwsPLw=",
+    "Controls\\93.json": "C8_NkLyAmPk/6lIHu2BDw3pD8T0WZC7su12Bs42DfDgYc8=",
+    "Header.json": "C8_RcJa0PTX5+A9tLSkF6KeGBfAE7cncOUB3BCJasFqOE4=",
+    "Properties.json": "C8_cOPTaO17h7HjPcSHNtZDF9s1W97an6NPBIPM2S7Sg5Y=",
+    "References\\DataSources.json": "C8_GzKwRc89pS4OK5mRWztBbBvPDJNATzAWXpa+1Rl2zAQ=",
+    "References\\ModernThemes.json": "C8_KDQJ/3t27vgKx25iCQB/PGqxkWE34ZB7Eyb+RxNxY0k=",
+    "References\\Resources.json": "C8_SZTx+EeT+YUgDo+yO3cltdRv6smI+pLwjKgfPgrD3o8=",
+    "References\\Templates.json": "C8_irGSLye7qu9e7fY99xrB2hVJcr7AeASvl9ORe2aWOkA=",
+    "References\\Themes.json": "C8_pe8/BVIbLlCyQjm1bbvbdS4y52cQ6mebisLGkpK8uVk=",
+    "Resources\\kk3rkzc2.jpg": "C8_z+rgvHwTIdq2/zvtRS30mrQA97iusFxq7lRHi8Hp92g=",
+    "Resources\\PublishInfo.json": "C8_AOYMJVJQj9G4e8CNwD3arC2xXEjGCB1n1BQeu8EVFg8=",
+    "Src\\App.pa.yaml": "C8_I4w8VJxRAjFclevcM2szpFavhBvCadsUk8KPPJB6XZ4=",
+    "Src\\AreaPage.pa.yaml": "C8_fk4eSNyG1GT2WD5wIstBtHiK9Vpot+JJiCGMGKOk4VE=",
+    "Src\\AssigntoPage.pa.yaml": "C8_p/tx3fshA3e6FoAdZRUAnYif4x2t0cnEd7KKkBPpXhM=",
+    "Src\\CasestatusPage.pa.yaml": "C8_fW24NyiWBPd5YngQHCv/OdoodR6wWCIgaq4QvmG/6HQ=",
+    "Src\\CreatenewticketPage.pa.yaml": "C8_pW21QJ7KAD6uSR+7I4xuVAbi2UeeX/SYk3uIv6ZVTN4=",
+    "Src\\DashboardPage.pa.yaml": "C8_e/9BG2SGOXMoDtQIHx4+MyIE819EkVsGETYJ+epI5NA=",
+    "Src\\PriorityPage.pa.yaml": "C8_vaupFNmCt39e5P4MCCwL+v03aTwaKKChlODJYCeB5xU=",
+    "Src\\TicketdetailsPage.pa.yaml": "C8_uQ1A8ntt/JP4suKTDaN6toZAqE3dQ0rOblcnbgEg+yY="
+  }
+}

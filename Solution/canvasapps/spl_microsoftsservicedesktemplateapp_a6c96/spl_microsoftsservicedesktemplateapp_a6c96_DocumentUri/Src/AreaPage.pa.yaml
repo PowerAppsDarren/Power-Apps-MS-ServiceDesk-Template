@@ -1,0 +1,141 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  AreaPage:
+    Properties:
+      Fill: =RGBA(255,255,255,1)
+      Height: =Max(App.Height, App.DesignHeight)
+      Width: =Max(App.Width, App.DesignWidth)
+    Children:
+      - Rectangle1_11:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_11.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_11.BorderColor
+            Height: =60
+            HoverFill: =Rectangle1_11.Fill
+            PressedFill: =Rectangle1_11.Fill
+            TabIndex: =0
+            Width: =1024
+      - TextBox4_6:
+          Control: Label@2.5.1
+          Properties:
+            Align: =LayoutAlignItems.Center
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+            DisplayMode: =DisplayMode.Edit
+            FocusedBorderColor: =TextBox4_6.BorderColor
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Normal
+            Height: =60
+            HoverBorderColor: =TextBox4_6.BorderColor
+            HoverColor: =TextBox4_6.Color
+            HoverFill: =TextBox4_6.Fill
+            Live: =Live.Off
+            Overflow: =Overflow.Hidden
+            PressedBorderColor: =TextBox4_6.BorderColor
+            PressedColor: =TextBox4_6.Color
+            PressedFill: =TextBox4_6.Fill
+            Role: =TextRole.Default
+            Size: =20
+            Text: ="Area"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =1024
+      - AreaGallery:
+          Control: Gallery@2.15.0
+          Variant: Vertical
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DelayItemLoading: =false
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(242, 244, 249, .5)
+            Height: =708
+            Items: =AccountNameTypes
+            LoadingSpinner: =LoadingSpinner.None
+            LoadingSpinnerColor: =AreaGallery.BorderColor
+            TemplatePadding: =0
+            TemplateSize: =45.78236914600549
+            Transition: =Transition.None
+            Width: =1024
+            Y: =60
+          Children:
+            - Rectangle7_12:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderStyle: =BorderStyle.Solid
+                  DisabledFill: =Rectangle7_12.Fill
+                  DisplayMode: =DisplayMode.Edit
+                  Fill: =RGBA(204, 204, 204, 1)
+                  FocusedBorderColor: =Rectangle7_12.BorderColor
+                  Height: =1
+                  HoverFill: =Rectangle7_12.Fill
+                  PressedFill: =Rectangle7_12.Fill
+                  TabIndex: =0
+                  Width: =1024
+                  Y: =44.7823691460055
+            - Rectangle7_1:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderStyle: =BorderStyle.Solid
+                  DisabledFill: =Rectangle7_1.Fill
+                  DisplayMode: =DisplayMode.Edit
+                  Fill: =RGBA(62,96,170,0)
+                  FocusedBorderColor: =Rectangle7_1.BorderColor
+                  Height: =45.7823691460055
+                  HoverFill: =Rectangle7_1.Fill
+                  OnSelect: =Navigate(TicketdetailsPage,ScreenTransition.Fade,{Area:AreaGallery.Selected.AccountNameTypes})
+                  PressedFill: =Rectangle7_1.Fill
+                  TabIndex: =0
+                  Width: =1024
+            - TextBox8_2:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Left
+                  BorderStyle: =BorderStyle.Solid
+                  Color: =RGBA(29,33,35,.9)
+                  DisabledColor: =ColorFade(RGBA(47, 41, 43, 1), 70%)
+                  DisplayMode: =DisplayMode.Edit
+                  FocusedBorderColor: =TextBox8_2.BorderColor
+                  Font: =Font.'Open Sans'
+                  FontWeight: =FontWeight.Semibold
+                  Height: =45.7823691460055
+                  HoverBorderColor: =TextBox8_2.BorderColor
+                  HoverColor: =TextBox8_2.Color
+                  HoverFill: =TextBox8_2.Fill
+                  Live: =Live.Off
+                  OnSelect: =Navigate(TicketdetailsPage,ScreenTransition.Fade,{Area:AreaGallery.Selected.AccountNameTypes})
+                  Overflow: =Overflow.Hidden
+                  PaddingLeft: =15
+                  PressedBorderColor: =TextBox8_2.BorderColor
+                  PressedColor: =TextBox8_2.Color
+                  PressedFill: =TextBox8_2.Fill
+                  Role: =TextRole.Default
+                  Size: =12
+                  Text: =AccountNameTypes
+                  VerticalAlign: =VerticalAlign.Middle
+                  Width: =759.8736696740102
+      - Rectangle1_13:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DisabledFill: =Rectangle1_13.Fill
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(109,49,162,1)
+            FocusedBorderColor: =Rectangle1_13.BorderColor
+            Height: =60
+            HoverFill: =Rectangle1_13.Fill
+            OnSelect: =Back()
+            PressedFill: =Rectangle1_13.Fill
+            TabIndex: =0
+            Width: =60

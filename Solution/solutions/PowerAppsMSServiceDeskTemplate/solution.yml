@@ -1,0 +1,17 @@
+ImportExportXml:
+  '@version': 9.2.24112.178
+  '@SolutionPackageVersion': 9.2
+  '@languagecode': 1033
+  '@generatedBy': CrmLive
+  '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SolutionManifest:
+    UniqueName: PowerAppsMSServiceDeskTemplate
+    LocalizedNames:
+      LocalizedName:
+        '@description': Power-Apps-MS-ServiceDesk-Template
+        '@languagecode': 1033
+    Descriptions: 
+    Version: 1.0.0.0
+    Managed: 0
+    Publisher:
+      UniqueName: SuperPowerLabs

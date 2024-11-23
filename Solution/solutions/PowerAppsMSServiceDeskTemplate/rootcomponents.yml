@@ -1,0 +1,5 @@
+RootComponents:
+  RootComponent:
+    '@type': 300
+    '@schemaName': spl_microsoftsservicedesktemplateapp_a6c96
+    '@behavior': 0

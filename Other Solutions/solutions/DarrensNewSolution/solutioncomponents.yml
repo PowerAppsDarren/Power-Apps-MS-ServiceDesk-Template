@@ -1,0 +1,4 @@
+SolutionComponents:
+  Component:
+  - '@path': /canvasapps/spl_newcanvasapp_65c98
+  - '@path': /publishers/SuperPowerLabs

@@ -1,0 +1,41 @@
+CanvasApp:
+  Name: spl_newcanvasapp_65c98
+  AppVersion: 2024-11-23T16:16:35.0000000Z
+  Status: Ready
+  CreatedByClientVersion: 3.24112.10.0
+  MinClientVersion: 3.24112.10.0
+  Tags: '{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24112.10","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}'
+  IsCdsUpgraded: 0
+  GalleryItemId:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  BackgroundColor: RGBA(0,176,240,1)
+  DisplayName: NEW CANVAS APP
+  Description:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  CommitMessage:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  Publisher:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  AuthorizationReferences: '[]'
+  ConnectionReferences: '{}'
+  DatabaseReferences: '{}'
+  AppComponents: '[]'
+  AppComponentDependencies: '[]'
+  CanConsumeAppPass: 0
+  CanvasAppType: 0
+  BypassConsent: 0
+  AdminControlBypassConsent: 0
+  EmbeddedApp:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  IntroducedVersion: 1.0
+  CdsDependencies: '{"cdsdependencies":[]}'
+  IsCustomizable: 1
+  BackgroundImageUri: /canvasapps/spl_newcanvasapp_65c98/spl_newcanvasapp_65c98_BackgroundImageUri
+  DocumentUri: /canvasapps/spl_newcanvasapp_65c98/spl_newcanvasapp_65c98_DocumentUri.msapp
+  AdditionalUris:
+    AdditionalUri: /canvasapps/spl_newcanvasapp_65c98/spl_newcanvasapp_65c98_AdditionalUris0_identity.json

@@ -1,0 +1,5 @@
+RootComponents:
+  RootComponent:
+    '@type': 300
+    '@schemaName': spl_newcanvasapp_65c98
+    '@behavior': 0

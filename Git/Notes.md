@@ -1,6 +1,16 @@
 
 # Helpful Git Commands 
 
+
+```bash
+
+    #
+    # Darren! Run this to synch everything up!
+    #
+    ./Git/pull-commit-push.sh
+
+```
+
 ```bash
     #The first time this is run, we need to run these two lines
     git add Git/pull-commit-push.sh
@@ -10,7 +20,6 @@
     git update-index --chmod=+x pull-commit-push.sh
 ```
 
-./Git/pull-commit-push.sh
 
 ```bash
 
@@ -28,8 +37,6 @@
 
 ```
 
-
-git update-index --chmod=+x git-sync.sh
 
 ---
 

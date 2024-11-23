@@ -10,7 +10,7 @@
     ./Git/pull-commit-push.sh
 
 ```
-
+  
 ```bash
     #The first time this is run, we need to run these two lines
     git add Git/pull-commit-push.sh

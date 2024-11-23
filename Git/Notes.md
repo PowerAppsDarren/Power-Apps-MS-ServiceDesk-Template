@@ -2,13 +2,15 @@
 # Helpful Git Commands 
 
 ```bash
-    # Run this command to make your script executable
+    #The first time this is run, we need to run these two lines
+    git add Git/pull-commit-push.sh
     git config --global core.autocrlf false
+
+    # Run this command to make your script executable
     git update-index --chmod=+x pull-commit-push.sh
 ```
 
-
-
+./Git/pull-commit-push.sh
 
 ```bash
 

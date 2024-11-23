@@ -2,6 +2,7 @@
 
 # Pull changes from Azure DevOps
 git pull azure main  
+    git pull origin main  
 
 # Commit everything locally that has changed
 git add .

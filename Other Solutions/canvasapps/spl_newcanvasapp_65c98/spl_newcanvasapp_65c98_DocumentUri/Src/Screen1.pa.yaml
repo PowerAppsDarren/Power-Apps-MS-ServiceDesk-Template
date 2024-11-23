@@ -24,10 +24,78 @@ Screens:
             DisplayMode: =DisplayMode.Edit
             X: =242
             Y: =40
+      - TextCanvas1:
+          Control: Text@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            X: =594
+            Y: =213
+      - Container1:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            BorderStyle: =BorderStyle.Solid
+            DropShadow: =DropShadow.ExtraBold
+            Fill: =RGBA(214, 221, 224, 1)
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            X: =81
+            Y: =369
+          Children:
+            - TextCanvas1_1:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  X: =40
+                  Y: =40
+      - Dropdown1:
+          Control: Classic/DropDown@2.3.1
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            ChevronBackground: =App.Theme.Colors.Primary
+            ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+            ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+            ChevronFill: =App.Theme.Colors.PrimaryForeground
+            ChevronHoverBackground: =App.Theme.Colors.Darker10
+            ChevronHoverFill: =App.Theme.Colors.PrimaryForeground
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            Font: =App.Theme.Font
+            FontWeight: =FontWeight.Bold
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            SelectionColor: =App.Theme.Colors.PrimaryForeground
+            SelectionFill: =App.Theme.Colors.Primary
+            Size: =17
+            X: =550
+            Y: =72
+      - Icon1:
+          Control: Icon@0.0.7
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            Height: =158
+            Width: =178
+            X: =891
+            Y: =288
       - ButtonCanvas1_2:
           Control: Button@0.0.43
           Properties:
-            DisplayMode: =DisplayMode.Disabled
-            X: =242
-            Y: =40
-            Width: =500
+            DisplayMode: =DisplayMode.Edit
+            X: =878
+            Y: =544
+      - ButtonCanvas9:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            Height: =76
+            Text: ="Create Ticket"
+            Width: =276
+            X: =974
+            Y: =652

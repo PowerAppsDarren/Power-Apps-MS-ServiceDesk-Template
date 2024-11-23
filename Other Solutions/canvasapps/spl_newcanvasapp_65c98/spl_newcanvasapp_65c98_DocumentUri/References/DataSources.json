@@ -1,3 +1,17 @@
 {
-  "DataSources": []
+  "DataSources": [
+    {
+      "Name": "DropDownSample",
+      "Schema": "*[Value:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[Value:s]",
+      "Data": "[{\"Value\":\"1\"},{\"Value\":\"2\"},{\"Value\":\"3\"}]",
+      "OriginalName": "DropDownSample",
+      "OrderedColumnNames": [
+        "Value"
+      ]
+    }
+  ]
 }

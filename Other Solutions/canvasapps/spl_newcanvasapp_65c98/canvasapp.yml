@@ -1,6 +1,6 @@
 CanvasApp:
   Name: spl_newcanvasapp_65c98
-  AppVersion: 2024-11-23T16:48:55.0000000Z
+  AppVersion: 2024-11-23T17:05:44.0000000Z
   Status: Ready
   CreatedByClientVersion: 3.24112.10.0
   MinClientVersion: 3.24112.10.0
@@ -11,9 +11,7 @@ CanvasApp:
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   BackgroundColor: RGBA(0,176,240,1)
   DisplayName: NEW CANVAS APP
-  Description:
-    '@xsi:nil': true
-    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  Description: I'd like to commit to Power Apps
   CommitMessage:
     '@xsi:nil': true
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance

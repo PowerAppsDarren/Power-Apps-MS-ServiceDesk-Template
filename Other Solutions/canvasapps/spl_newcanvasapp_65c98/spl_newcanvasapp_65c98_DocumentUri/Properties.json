@@ -112,7 +112,7 @@
   "DocumentAppType": "DesktopOrTablet",
   "DocumentType": "App",
   "AppCreationSource": "AppFromScratch",
-  "AppDescription": "",
+  "AppDescription": "I'd like to commit to Power Apps",
   "ManualOfflineProfileId": "",
   "DefaultConnectedDataSourceMaxGetRowsCount": 500,
   "ContainsThirdPartyPcfControls": false,
@@ -122,7 +122,8 @@
   "EnableInstrumentation": false,
   "ControlCount": {
     "screen": 1,
-    "PowerApps_CoreControls_ButtonCanvas": 2
+    "PowerApps_CoreControls_ButtonCanvas": 4,
+    "PowerApps_CoreControls_TextCanvas": 1
   },
   "DeserializationLoadTime": 0.7511847,
   "AnalysisLoadTime": 0.0796002

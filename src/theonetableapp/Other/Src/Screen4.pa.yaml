@@ -1,0 +1,43 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Screen4:
+    Properties:
+      LoadingSpinnerColor: =App.Theme.Colors.Primary
+    Children:
+      - DataCardValue6_2:
+          Control: Attachments@2.3.0
+          Properties:
+            BorderColor: =App.Theme.Colors.Primary
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            DropTargetBorderStyle: =BorderStyle.Dotted
+            FocusedBorderThickness: =4
+            Font: =App.Theme.Font
+            FontWeight: =FontWeight.Normal
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            ItemColor: =App.Theme.Colors.PrimaryForeground
+            ItemFill: =App.Theme.Colors.Primary
+            ItemHoverColor: =RGBA(0, 0, 0, 1)
+            ItemHoverFill: =App.Theme.Colors.Lighter70
+            PaddingBottom: =5
+            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            Width: =Parent.Width - 60
+            X: =30
+            Y: =58

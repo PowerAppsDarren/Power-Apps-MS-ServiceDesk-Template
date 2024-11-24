@@ -1,0 +1,56 @@
+Screen2 As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Gallery1_1 As gallery.galleryVertical:
+        BorderColor: =App.Theme.Colors.Darker40
+        DelayItemLoading: =true
+        Fill: =RGBA(214, 221, 224, 1)
+        Height: =615
+        Items: =colAtt
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateFill: =Color.White
+        TemplateSize: =500
+        Width: =1268
+        X: =51
+        Y: =123
+        ZIndex: =1
+
+        TextCanvas1_1 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =100
+            Text: =ThisItem.DisplayName
+            Width: =162
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        TextCanvas1_2 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =46
+            Text: =ThisItem.AbsoluteUri
+            Width: =1069
+            X: =189
+            Y: =0
+            ZIndex: =2
+
+        TextCanvas1_3 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =46
+            Text: =ThisItem.Id
+            Width: =1069
+            X: =189
+            Y: =46
+            ZIndex: =3
+
+        TextCanvas1_4 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =268
+            Size: =24
+            Text: =ThisItem.Value
+            Width: =1258
+            X: =0
+            Y: =232
+            ZIndex: =4
+

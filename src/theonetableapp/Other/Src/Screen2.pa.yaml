@@ -1,0 +1,65 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Screen2:
+    Properties:
+      LoadingSpinnerColor: =App.Theme.Colors.Primary
+    Children:
+      - Gallery1_1:
+          Control: Gallery@2.15.0
+          Variant: Vertical
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(214, 221, 224, 1)
+            Height: =615
+            Items: =colAtt
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateFill: =Color.White
+            TemplateSize: =500
+            Transition: =Transition.None
+            Width: =1268
+            X: =51
+            Y: =123
+          Children:
+            - TextCanvas1_1:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  Height: =100
+                  Text: =ThisItem.DisplayName
+                  Width: =162
+            - TextCanvas1_2:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  Height: =46
+                  Text: =ThisItem.AbsoluteUri
+                  Width: =1069
+                  X: =189
+            - TextCanvas1_3:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  Height: =46
+                  Text: =ThisItem.Id
+                  Width: =1069
+                  X: =189
+                  Y: =46
+            - TextCanvas1_4:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  Height: =268
+                  Size: =24
+                  Text: =ThisItem.Value
+                  Width: =1258
+                  Y: =232

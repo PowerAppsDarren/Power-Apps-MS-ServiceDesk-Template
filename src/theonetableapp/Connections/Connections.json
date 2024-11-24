@@ -1,0 +1,42 @@
+{
+  "33e55406-f148-4d83-a9f7-0648f39a4b05": {
+    "connectionRef": {
+      "displayName": "Office 365 Groups",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1681/1.0.1681.3663/office365groups/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365groups"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Groups"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "33e55406-f148-4d83-a9f7-0648f39a4b05"
+  },
+  "9a045118-0573-443a-891b-10e9dd42696d": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://doaccelerator.sharepoint.com/sites/OneTableApp": {
+        "dataSources": {
+          "TheOneList": {
+            "tableName": "0099e42a-1814-4ea0-b37a-f71f279ed27e"
+          },
+          "TheOneTable": {
+            "tableName": "614b0a05-360f-4e3e-ba8f-d7de30257b3b"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "TheOneTable",
+      "TheOneList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9a045118-0573-443a-891b-10e9dd42696d"
+  }
+}

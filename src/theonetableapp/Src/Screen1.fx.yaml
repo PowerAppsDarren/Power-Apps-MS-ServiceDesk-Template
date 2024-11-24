@@ -1,0 +1,326 @@
+Screen1 As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    attFiles As attachments:
+        BorderColor: =App.Theme.Colors.Darker40
+        BorderThickness: =2
+        Default: |-
+            ={
+                Name: "",
+                ContentBytes: ""
+            }
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =App.Theme.Font
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =App.Theme.Colors.Lighter70
+        ItemColor: =App.Theme.Colors.PrimaryForeground
+        ItemFill: =App.Theme.Colors.Primary
+        ItemHoverColor: =RGBA(0, 0, 0, 1)
+        ItemHoverFill: =App.Theme.Colors.Lighter70
+        PressedColor: =App.Theme.Colors.PrimaryForeground
+        PressedFill: =App.Theme.Colors.Darker30
+        X: =51
+        Y: =96
+        ZIndex: =1
+
+    Form1 As form.PowerApps_CoreControls_Form:
+        BorderColor: =App.Theme.Colors.Darker40
+        DataSource: =TheOneList
+        DefaultMode: =FormMode.New
+        Item: =Gallery1.Selected
+        NumberOfColumns: =1
+        UseFluentV9Cards: =true
+        Width: =574
+        X: =728
+        Y: =67
+        ZIndex: =2
+
+        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="{Attachments}"
+            Default: =ThisItem.Attachments
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@TheOneList],DataSourceInfo.DisplayName,'{Attachments}')
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue6.Attachments
+            Width: =574
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey6 As label:
+                AutoHeight: =true
+                Color: =App.Theme.Colors.Darker30
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue6 As attachments:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =App.Theme.Font
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =App.Theme.Colors.Lighter70
+                IsInDataCard: =true
+                ItemColor: =App.Theme.Colors.PrimaryForeground
+                ItemFill: =App.Theme.Colors.Primary
+                ItemHoverColor: =RGBA(0, 0, 0, 1)
+                ItemHoverFill: =App.Theme.Colors.Lighter70
+                Items: =Parent.Default
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedColor: =App.Theme.Colors.PrimaryForeground
+                PressedFill: =App.Theme.Colors.Darker30
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =58
+                ZIndex: =2
+
+            ErrorMessage6 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue6.Y + DataCardValue6.Height
+                ZIndex: =3
+
+            StarVisible6 As label:
+                Align: =Align.Center
+                Color: =App.Theme.Colors.Darker30
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =App.Theme.Font
+                Height: =DataCardKey6.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey6.Y
+                ZIndex: =4
+
+        Title_DataCard2 As typedDataCard.fluentV9TextualEditCard:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Title
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@TheOneList],DataSourceInfo.DisplayName,'Title')
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =70
+            MaxLength: =DataSourceInfo([@TheOneList], DataSourceInfo.MaxLength, 'Title')
+            Required: =false
+            Update: =DataCardValue3.Value
+            Width: =574
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+            DataCardKey3 As Text:
+                DisplayMode: =DisplayMode.Edit
+                Height: =22
+                Text: =Parent.DisplayName
+                Weight: ='TextCanvas.Weight'.Semibold
+                Width: =Parent.Width - 48
+                Wrap: =false
+                X: =24
+                Y: =10
+                ZIndex: =1
+
+            "DataCardValue3 As 'Text input'":
+                AccessibleLabel: =Parent.DisplayName
+                DisplayMode: =Parent.DisplayMode
+                Height: =32
+                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                Required: =Parent.Required
+                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                Value: =Parent.Default
+                Width: =Parent.Width - 48
+                X: =24
+                Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                ZIndex: =2
+
+            ErrorMessage3 As Text:
+                DisplayMode: =DisplayMode.Edit
+                Height: =30
+                Text: =Parent.Error
+                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                Width: =Parent.Width - 48
+                Wrap: =true
+                X: =24
+                Y: =DataCardValue3.Y + DataCardValue3.Height
+                ZIndex: =3
+
+            StarVisible3 As Text:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                Height: =30
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                X: =0
+                Y: =DataCardKey3.Y
+                ZIndex: =4
+
+    DataCardValue4_1 As attachments:
+        BorderColor: =App.Theme.Colors.Primary
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =App.Theme.Font
+        Height: =222
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =App.Theme.Colors.Lighter70
+        ItemColor: =App.Theme.Colors.PrimaryForeground
+        ItemFill: =App.Theme.Colors.Primary
+        ItemHoverColor: =RGBA(0, 0, 0, 1)
+        ItemHoverFill: =App.Theme.Colors.Lighter70
+        Items: |-
+            =Filter(
+                [
+                    {
+                        Id: "",
+                        AbsoluteUri: "",
+                        DisplayName: "",
+                        Value: ""
+                    }
+                ],
+                false
+            )
+        PaddingBottom: =5
+        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedColor: =App.Theme.Colors.PrimaryForeground
+        PressedFill: =App.Theme.Colors.Darker30
+        Tooltip: ="Attach Files"
+        Width: =341
+        X: =45
+        Y: =420
+        ZIndex: =3
+
+    Image1 As image:
+        BorderColor: =App.Theme.Colors.Darker40
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        X: =579
+        Y: =627
+        ZIndex: =4
+
+    ButtonCanvas1 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: |
+            =Set(
+                gblFile,
+                JSON(Image1.Image, JSONFormat.IncludeBinaryData)
+            );
+        Width: =96
+        X: =566
+        Y: =581
+        ZIndex: =5
+
+    ButtonCanvas2 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =SubmitForm(Form1)
+        Width: =96
+        X: =1142
+        Y: =515
+        ZIndex: =6
+
+    Gallery1 As gallery.galleryVertical:
+        BorderColor: =App.Theme.Colors.Darker40
+        DelayItemLoading: =true
+        Fill: =RGBA(214, 221, 224, 1)
+        Height: =261
+        Items: =TheOneList
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateFill: =Color.White
+        TemplateSize: =43
+        Width: =274
+        X: =420
+        Y: =135
+        ZIndex: =7
+
+        TextCanvas1 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Text: =ThisItem.Title
+            Width: =96
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+    ButtonCanvas3 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =ClearCollect(colAtt, Gallery1.Selected.Attachments)
+        Width: =96
+        X: =566
+        Y: =439
+        ZIndex: =8
+
+    DataCardValue4_2 As attachments:
+        BorderColor: =App.Theme.Colors.Primary
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =App.Theme.Font
+        Height: =105
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =App.Theme.Colors.Lighter70
+        ItemColor: =App.Theme.Colors.PrimaryForeground
+        ItemFill: =App.Theme.Colors.Primary
+        ItemHoverColor: =RGBA(0, 0, 0, 1)
+        ItemHoverFill: =App.Theme.Colors.Lighter70
+        Items: =Filter(First(TheOneList).Attachments, true)
+        PaddingBottom: =5
+        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+        PaddingRight: =5
+        PaddingTop: =5
+        PressedColor: =App.Theme.Colors.PrimaryForeground
+        PressedFill: =App.Theme.Colors.Darker30
+        Tooltip: ="Attach Files"
+        Width: =341
+        X: =801
+        Y: =627
+        ZIndex: =9
+

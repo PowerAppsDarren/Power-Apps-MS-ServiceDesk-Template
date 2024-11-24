@@ -1,0 +1,360 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Screen1:
+    Properties:
+      LoadingSpinnerColor: =App.Theme.Colors.Primary
+    Children:
+      - attFiles:
+          Control: Attachments@2.3.0
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            Default: |-
+              ={
+                  Name: "",
+                  ContentBytes: ""
+              }
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            DropTargetBorderStyle: =BorderStyle.Dotted
+            FocusedBorderThickness: =4
+            Font: =App.Theme.Font
+            FontWeight: =FontWeight.Normal
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            ItemColor: =App.Theme.Colors.PrimaryForeground
+            ItemFill: =App.Theme.Colors.Primary
+            ItemHoverColor: =RGBA(0, 0, 0, 1)
+            ItemHoverFill: =App.Theme.Colors.Lighter70
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            X: =51
+            Y: =96
+      - Form1:
+          Control: Form@2.4.2
+          Layout: Vertical
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DataSource: =TheOneList
+            DefaultMode: =FormMode.New
+            Item: =Gallery1.Selected
+            Width: =574
+            X: =728
+            Y: =67
+          Children:
+            - Attachments_DataCard1:
+                Control: TypedDataCard@1.0.6
+                Variant: ClassicAttachmentsEdit
+                Properties:
+                  BorderColor: =App.Theme.Colors.Darker40
+                  BorderStyle: =BorderStyle.Solid
+                  DataField: ="{Attachments}"
+                  DisplayName: =DataSourceInfo([@TheOneList],DataSourceInfo.DisplayName,'{Attachments}')
+                  Required: =false
+                  Width: =574
+                  Y: =1
+                Children:
+                  - DataCardKey6:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Left
+                        AutoHeight: =true
+                        BorderStyle: =BorderStyle.Solid
+                        Color: =App.Theme.Colors.Darker30
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =App.Theme.Font
+                        FontWeight: =FontWeight.Normal
+                        Height: =34
+                        Live: =Live.Off
+                        Overflow: =Overflow.Hidden
+                        Role: =TextRole.Default
+                        Size: =13
+                        Text: =Parent.DisplayName
+                        VerticalAlign: =VerticalAlign.Middle
+                        Width: =Parent.Width - 60
+                        Wrap: =false
+                        X: =30
+                        Y: =10
+                  - DataCardValue6:
+                      Control: Attachments@2.3.0
+                      Properties:
+                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        BorderStyle: =BorderStyle.Solid
+                        BorderThickness: =2
+                        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisabledFill: =RGBA(244, 244, 244, 1)
+                        DisplayMode: =Parent.DisplayMode
+                        DropTargetBorderStyle: =BorderStyle.Dotted
+                        FocusedBorderThickness: =4
+                        Font: =App.Theme.Font
+                        FontWeight: =FontWeight.Normal
+                        HoverColor: =RGBA(0, 0, 0, 1)
+                        HoverFill: =App.Theme.Colors.Lighter70
+                        ItemColor: =App.Theme.Colors.PrimaryForeground
+                        ItemFill: =App.Theme.Colors.Primary
+                        ItemHoverColor: =RGBA(0, 0, 0, 1)
+                        ItemHoverFill: =App.Theme.Colors.Lighter70
+                        Items: =Parent.Default
+                        PaddingBottom: =5
+                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                        PaddingRight: =5
+                        PaddingTop: =5
+                        PressedColor: =App.Theme.Colors.PrimaryForeground
+                        PressedFill: =App.Theme.Colors.Darker30
+                        Tooltip: =Parent.DisplayName
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =58
+                  - ErrorMessage6:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Left
+                        AutoHeight: =true
+                        BorderStyle: =BorderStyle.Solid
+                        Color: =RGBA(168, 0, 0, 1)
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =App.Theme.Font
+                        FontWeight: =FontWeight.Semibold
+                        Height: =10
+                        Live: =Live.Assertive
+                        Overflow: =Overflow.Hidden
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Role: =TextRole.Default
+                        Text: =Parent.Error
+                        VerticalAlign: =VerticalAlign.Middle
+                        Visible: =Parent.DisplayMode=DisplayMode.Edit
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardValue6.Y + DataCardValue6.Height
+                  - StarVisible6:
+                      Control: Label@2.5.1
+                      Properties:
+                        Align: =Align.Center
+                        BorderStyle: =BorderStyle.Solid
+                        Color: =App.Theme.Colors.Darker30
+                        DisabledColor: =RGBA(166, 166, 166, 1)
+                        DisplayMode: =DisplayMode.Edit
+                        Font: =App.Theme.Font
+                        FontWeight: =FontWeight.Normal
+                        Height: =DataCardKey6.Height
+                        Live: =Live.Off
+                        Overflow: =Overflow.Hidden
+                        Role: =TextRole.Default
+                        Size: =13
+                        Text: ="*"
+                        VerticalAlign: =VerticalAlign.Middle
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        Wrap: =false
+                        Y: =DataCardKey6.Y
+            - Title_DataCard2:
+                Control: TypedDataCard@1.0.6
+                Variant: TextualEdit
+                Properties:
+                  BorderColor: =App.Theme.Colors.Darker40
+                  BorderStyle: =BorderStyle.Solid
+                  DataField: ="Title"
+                  DisplayName: =DataSourceInfo([@TheOneList],DataSourceInfo.DisplayName,'Title')
+                  Required: =false
+                  Width: =574
+                  Y: =0
+                Children:
+                  - DataCardKey3:
+                      Control: Text@0.0.43
+                      Properties:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =22
+                        Text: =Parent.DisplayName
+                        Weight: ='TextCanvas.Weight'.Semibold
+                        Width: =Parent.Width - 48
+                        Wrap: =false
+                        X: =24
+                        Y: =10
+                  - DataCardValue3:
+                      Control: TextInput@0.0.49
+                      Properties:
+                        AccessibleLabel: =Parent.DisplayName
+                        DisplayMode: =Parent.DisplayMode
+                        Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                        Required: =Parent.Required
+                        ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                        Value: =Parent.Default
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardKey3.Y + DataCardKey3.Height + 4
+                  - ErrorMessage3:
+                      Control: Text@0.0.43
+                      Properties:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: =Parent.Error
+                        Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =Parent.Width - 48
+                        X: =24
+                        Y: =DataCardValue3.Y + DataCardValue3.Height
+                  - StarVisible3:
+                      Control: Text@0.0.43
+                      Properties:
+                        Align: ='TextCanvas.Align'.Center
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =30
+                        Text: ="*"
+                        Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                        Width: =30
+                        Y: =DataCardKey3.Y
+      - DataCardValue4_1:
+          Control: Attachments@2.3.0
+          Properties:
+            BorderColor: =App.Theme.Colors.Primary
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            DropTargetBorderStyle: =BorderStyle.Dotted
+            FocusedBorderThickness: =4
+            Font: =App.Theme.Font
+            FontWeight: =FontWeight.Normal
+            Height: =222
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            ItemColor: =App.Theme.Colors.PrimaryForeground
+            ItemFill: =App.Theme.Colors.Primary
+            ItemHoverColor: =RGBA(0, 0, 0, 1)
+            ItemHoverFill: =App.Theme.Colors.Lighter70
+            Items: |-
+              =Filter(
+                  [
+                      {
+                          Id: "",
+                          AbsoluteUri: "",
+                          DisplayName: "",
+                          Value: ""
+                      }
+                  ],
+                  false
+              )
+            Items.Name: =AbsoluteUri
+            PaddingBottom: =5
+            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            Tooltip: ="Attach Files"
+            Width: =341
+            X: =45
+            Y: =420
+      - Image1:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            ImagePosition: =ImagePosition.Fit
+            ImageRotation: =ImageRotation.None
+            X: =579
+            Y: =627
+      - ButtonCanvas1:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            OnSelect: |
+              =Set(
+                  gblFile,
+                  JSON(Image1.Image, JSONFormat.IncludeBinaryData)
+              );
+            X: =566
+            Y: =581
+      - ButtonCanvas2:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            OnSelect: =SubmitForm(Form1)
+            X: =1142
+            Y: =515
+      - Gallery1:
+          Control: Gallery@2.15.0
+          Variant: Vertical
+          Properties:
+            BorderColor: =App.Theme.Colors.Darker40
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(214, 221, 224, 1)
+            Height: =261
+            Items: =TheOneList
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateFill: =Color.White
+            TemplateSize: =43
+            Transition: =Transition.None
+            Width: =274
+            X: =420
+            Y: =135
+          Children:
+            - TextCanvas1:
+                Control: Text@0.0.43
+                Properties:
+                  DisplayMode: =DisplayMode.Edit
+                  Text: =ThisItem.Title
+      - ButtonCanvas3:
+          Control: Button@0.0.43
+          Properties:
+            DisplayMode: =DisplayMode.Edit
+            OnSelect: =ClearCollect(colAtt, Gallery1.Selected.Attachments)
+            X: =566
+            Y: =439
+      - DataCardValue4_2:
+          Control: Attachments@2.3.0
+          Properties:
+            BorderColor: =App.Theme.Colors.Primary
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.Edit
+            DropTargetBorderStyle: =BorderStyle.Dotted
+            FocusedBorderThickness: =4
+            Font: =App.Theme.Font
+            FontWeight: =FontWeight.Normal
+            Height: =105
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            ItemColor: =App.Theme.Colors.PrimaryForeground
+            ItemFill: =App.Theme.Colors.Primary
+            ItemHoverColor: =RGBA(0, 0, 0, 1)
+            ItemHoverFill: =App.Theme.Colors.Lighter70
+            Items: =Filter(First(TheOneList).Attachments, true)
+            Items.Name: =DisplayName
+            Items.Value: =Id
+            PaddingBottom: =5
+            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            Tooltip: ="Attach Files"
+            Width: =341
+            X: =801
+            Y: =627

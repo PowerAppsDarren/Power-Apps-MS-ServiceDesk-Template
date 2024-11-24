@@ -1,0 +1,97 @@
+Screen3 As screen:
+    Fill: =Color.White
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    Attachments_DataCard1_1 As typedDataCard.attachmentsEditCard:
+        BorderColor: =App.Theme.Colors.Darker40
+        BorderStyle: =BorderStyle.Solid
+        DataField: ="{Attachments}"
+        Default: =ThisItem.Attachments
+        DisplayMode: =Parent.DisplayMode
+        DisplayName: =DataSourceInfo([@TheOneList],DataSourceInfo.DisplayName,'{Attachments}')
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =428
+        Update: =DataCardValue6_1.Attachments
+        Width: =574
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        DataCardKey6_1 As label:
+            AutoHeight: =true
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            Height: =34
+            Size: =13
+            Text: =Parent.DisplayName
+            Width: =Parent.Width - 60
+            Wrap: =false
+            X: =30
+            Y: =10
+            ZIndex: =1
+
+        DataCardValue6_1 As attachments:
+            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =Parent.DisplayMode
+            FocusedBorderThickness: =4
+            Font: =App.Theme.Font
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =App.Theme.Colors.Lighter70
+            ItemColor: =App.Theme.Colors.PrimaryForeground
+            ItemFill: =App.Theme.Colors.Primary
+            ItemHoverColor: =RGBA(0, 0, 0, 1)
+            ItemHoverFill: =App.Theme.Colors.Lighter70
+            Items: =Parent.Default
+            PaddingBottom: =5
+            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedColor: =App.Theme.Colors.PrimaryForeground
+            PressedFill: =App.Theme.Colors.Darker30
+            Tooltip: =Parent.DisplayName
+            Width: =Parent.Width - 60
+            X: =30
+            Y: =DataCardKey6_1.Y + DataCardKey6_1.Height + 5
+            ZIndex: =2
+
+        ErrorMessage6_1 As label:
+            AutoHeight: =true
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            Height: =10
+            Live: =Live.Assertive
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =Parent.Error
+            Visible: =Parent.DisplayMode=DisplayMode.Edit
+            Width: =Parent.Width - 60
+            X: =30
+            Y: =DataCardValue6_1.Y + DataCardValue6_1.Height
+            ZIndex: =3
+
+        StarVisible6_1 As label:
+            Align: =Align.Center
+            BorderColor: =App.Theme.Colors.Darker40
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =App.Theme.Font
+            Height: =DataCardKey6_1.Height
+            Size: =13
+            Text: ="*"
+            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+            Width: =30
+            Wrap: =false
+            Y: =DataCardKey6_1.Y
+            ZIndex: =4
+
